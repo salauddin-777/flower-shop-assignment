@@ -188,6 +188,12 @@ header img{
     .flower-option{
         flex-direction: column;
     }
+    .deal-items{
+        flex-direction: column;
+    }
+    .deal-item{
+        width: 100%;
+    }
 }
 
 /* Responsive Medium Device */
