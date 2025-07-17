@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
+
+.lato-regular-normal {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared Style */
+.btn-primary{
+    padding: 20px 43px 20px 43px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+}
+
+/* Header Style */
+
+header{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 97px;
+}
+header img{
+    width: 100%;
+    padding-top: 50px;
+    
+}
+.action{
+    text-align: left;
+    width: 708px;
+}
+.action-title{
+    font-weight: 800;
+    font-size: 4.6rem ;
+    margin: 0 auto;
+}
+.action-description{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
