@@ -7,6 +7,9 @@
 }
 
 /* Shared Style */
+.hide{
+    display: none;
+}
 .btn-primary{
     padding: 20px 43px 20px 43px;
     border-radius: 8px;
@@ -15,6 +18,9 @@
     font-size: 1.25rem;
     font-weight: 700;
     border: none;
+}
+.bg-primary{
+    background: rgba(229, 84, 115, 0.1);
 }
 
 /* Header Style */
@@ -45,6 +51,83 @@ header img{
     font-size: 1.2rem;
 }
 
+/* Flower Feature Section Style */
+
+.flower-feature{
+    text-align: center;
+    width: 594px;
+    margin: 0 auto;
+    margin-top: 170px;
+}
+.feature-title{
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin: 0 auto;
+}
+.feature-description{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: rgba(39, 39, 39, 0.6);
+}
+.flower-items{
+    display:grid ;
+    grid-template-columns: repeat(3, 1fr);
+    width: 464px;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 200px;
+    /* margin-right: 0px; */
+    align-items: center;
+    
+}
+.flower-item img{
+    width: 100%;
+    padding: 110px 70px;
+    gap: 30px;
+    margin: 20px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+#flower-item-1{
+    background-color: rgba(167, 33, 98, 0.15);
+    padding-bottom: 120px;
+}
+#flower-item-2{
+    background-color: rgba(5, 151, 160, 0.15);
+    padding-bottom: 185px;
+}
+#flower-item-3{
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 105px 65px;
+}
+.feature-item-title{
+    width: 181px;
+    /* padding-left: 120px; */
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+/* Flower Option Section Style */
+.options{
+    /* max-width: 1440px; */
+}
+.flower-option{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin: 86px 30px;
+    border: 1px solid black;
+    padding: 90px 60px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);;
+}
+
+
+
 
 /* Responsive Small Device */
 @media screen and (max-width: 576px) {
@@ -57,6 +140,16 @@ header img{
     }
     .action-title{
         font-size: 2rem;
+    }
+    .flower-items{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .feature{
+        margin: 0 auto;
+    }
+    .flower-item{
+        width: 100%;
     }
 }
 
