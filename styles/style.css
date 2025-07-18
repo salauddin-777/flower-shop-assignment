@@ -186,6 +186,39 @@ header img{
     justify-content: center;
 }
 
+/* Latest Deal Section Style */
+
+.latest-deals{
+    max-width: 1440px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 128px;
+    padding: 122px 287px;
+    background-image: url(../assets/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+.deal-title{
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin: 1px;
+    
+}
+.deal-description{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: rgba(39, 39, 39, 0.6);
+}
+.deal-input input[type = "text"]{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 24px 523px 24px 24px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 
 
 
@@ -225,6 +258,12 @@ header img{
         flex-direction: column;
     }
     .instagram-container{
+        width: 100%;
+    }
+    .latest-deals{
+        width: 100%;
+    }
+    .deal-title{
         width: 100%;
     }
 }
